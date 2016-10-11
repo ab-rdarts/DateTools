@@ -289,7 +289,7 @@ static NSCalendar *implicitCalendar = nil;
 }
 
 - (NSString *)getLocaleFormatUnderscoresWithValue:(double)value{
-    NSString *localeCode = [[[NSBundle mainBundle] preferredLocalizations] objectAtIndex:0];
+    /*NSString *localeCode = [[[NSBundle mainBundle] preferredLocalizations] objectAtIndex:0];
     
     // Russian (ru) and Ukrainian (uk)
     if([localeCode isEqualToString:@"ru-RU"] || [localeCode isEqualToString:@"uk"]) {
@@ -307,7 +307,7 @@ static NSCalendar *implicitCalendar = nil;
         if(Y == 1 && XY != 11) {
             return @"__";
         }
-    }
+    }*/
     
     // Add more languages here, which are have specific translation rules...
     
